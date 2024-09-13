@@ -10,7 +10,6 @@
 
     <ScrollView>
         <StackLayout Padding="10">
-            <!-- BindableLayout que mostrará la lista de productos -->
             <StackLayout BindableLayout.ItemsSource="{Binding Productos}">
                 <BindableLayout.ItemTemplate>
                     <DataTemplate>
