@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectLayout.FlexLayoutPage"
+             Title="Galería (FlexLayout)">
+
+    <ScrollView>
+
+        <FlexLayout Wrap="Wrap" 
+                    AlignItems="Center"
+                    AlignContent="Center"
+                    Direction="Row"
+                    JustifyContent="SpaceEvenly"
+                    Padding="10">
+
+            <!-- Imagen 1 -->
+            <Image Source="image1.jpg" 
+                   WidthRequest="150" 
+                   HeightRequest="150"
+                   Margin="5"/>
+
+            <!-- Imagen 2 -->
+            <Image Source="image2.jpg" 
+                   WidthRequest="150" 
+                   HeightRequest="150"
+                   Margin="5"/>
+
+            <!-- Imagen 3 -->
+            <Image Source="image3.jpg" 
+                   WidthRequest="150" 
+                   HeightRequest="150"
+                   Margin="5"/>
+
+            <!-- Imagen 4 -->
+            <Image Source="image4.jpg" 
+                   WidthRequest="150" 
+                   HeightRequest="150"
+                   Margin="5"/>
+
+            <!-- Imagen 5 -->
+            <Image Source="image5.jpg" 
+                   WidthRequest="150" 
+                   HeightRequest="150"
+                   Margin="5"/>
+
+            <Image Source="image5.jpg" 
+                   WidthRequest="150" 
+                   HeightRequest="150"
+                   Margin="5"/>
+
+            <Image Source="image5.jpg" 
+                   WidthRequest="150" 
+                   HeightRequest="150"
+                   Margin="5"/>
+
+            <Image Source="image5.jpg" 
+                   WidthRequest="150" 
+                   HeightRequest="150"
+                   Margin="5"/>
+
+            <Image Source="image5.jpg" 
+                   WidthRequest="150" 
+                   HeightRequest="150"
+                   Margin="5"/>
+
+            <Image Source="image5.jpg" 
+                   WidthRequest="150" 
+                   HeightRequest="150"
+                   Margin="5"/>
+        </FlexLayout>
+    </ScrollView>
+
+</ContentPage>

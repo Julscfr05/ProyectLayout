@@ -1,0 +1,28 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectLayout.VerticalStackLayoutPage"
+             Title="VerticalStackLayout">
+
+    <VerticalStackLayout Padding="20" Spacing="25">
+        <!-- Título -->
+        <Label Text="Mi Rutina Diaria :)" 
+               FontSize="26"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="Blue"/>
+
+        <!-- Tareas diarias apiladas verticalmente -->
+        <Label Text="- Levantarme (obligatorio)" FontSize="20"/>
+        <Label Text="- Salir a trotar (ni yo me lo creo)" FontSize="20"/>
+        <Label Text="- Desayuno saludable (un pan teso)" FontSize="20"/>
+        <Label Text="- Ir a la Universidad" FontSize="20"/>
+        <Label Text="- Estudiar (opcional)" FontSize="20"/>
+        <Label Text="- Dormir temprano (imposible)" FontSize="20"/>
+
+        <Button Text="Añadir +" 
+                BackgroundColor="Blue"
+                TextColor="White"
+                FontSize="18"
+                HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

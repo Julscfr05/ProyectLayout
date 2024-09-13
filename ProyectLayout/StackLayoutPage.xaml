@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectLayout.StackLayoutPage"
+             Title="StackLayout">
+    
+    <StackLayout Padding="20" Spacing="10">
+        <!-- Título de la lista -->
+        <Label Text="Lista de Compras" 
+               FontSize="24" 
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="Purple"/>
+
+        <!-- Elementos de la lista -->
+        <StackLayout Padding="20" Spacing="25" >
+            <Label Text="- 🍎 Manzanas" FontSize="18"/>
+            <Label Text="- 🍞 Pan" FontSize="18"/>
+            <Label Text="- 🥛 Leche" FontSize="18"/>
+            <Label Text="- 🥚 Huevos" FontSize="18"/>
+            <Label Text="- 🍗 Pollo" FontSize="18"/>
+            <Label Text="IMPORTANTE: si algo se me olvida, me regaña mi mamá 😭" FontSize="20" 
+                   FontAttributes="Bold"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

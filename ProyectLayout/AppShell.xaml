@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell x:Class="ProyectLayout.AppShell"
+       xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:ProyectLayout">
+
+    <!-- Definimos los items del Flyout -->
+    <FlyoutItem Title="Absolute Layout" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Absolute Layout" ContentTemplate="{DataTemplate local:AbsoluteLayoutPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Bindable Layout" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Bindable Layout" ContentTemplate="{DataTemplate local:BindableLayoutPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Flex Layout" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Flex Layout" ContentTemplate="{DataTemplate local:FlexLayoutPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Grid Layout" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Grid Layout" ContentTemplate="{DataTemplate local:GridLayoutPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Horizontal Stack Layout" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Horizontal Stack Layout" ContentTemplate="{DataTemplate local:HorizontalStackLayoutPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Stack Layout" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Stack Layout" ContentTemplate="{DataTemplate local:StackLayoutPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Vertical Stack Layout" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Vertical Stack Layout" ContentTemplate="{DataTemplate local:VerticalStackLayoutPage}" />
+    </FlyoutItem>
+
+</Shell>
